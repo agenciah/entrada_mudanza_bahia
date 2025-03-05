@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import html2canvas from 'html2canvas';
 import { TextField, Button, Container, Select, MenuItem, FormControl, InputLabel } from '@mui/material';
-import background from './assets/entrada_mudanza_punta_azul.jpg';
+import background from './assets/entrada_mudanza_bahia.jpg';
 
 function Form() {
   const [formData, setFormData] = useState({
@@ -14,7 +14,7 @@ function Form() {
     empresaMudanza: '',
     datosChofer: '',
     notas: '',
-    nombreCondominio: 'Condominio Punta Azul',
+    nombreCondominio: 'Condominio Bahía',
   });
 
   const handleChange = (e) => {
@@ -191,7 +191,7 @@ function Form() {
             <div key={index}>{line}</div>
           ))}
         </div>
-        <div style={{ position: 'absolute', top: '274px', left: '194px', color: 'white', fontSize: '48px', textTransform: 'uppercase' }}>
+        <div style={{ position: 'absolute', top: '244px', left: '194px', color: 'white', fontSize: '48px', textTransform: 'uppercase' }}>
           {formData.nombreCondominio}
         </div>
       </div>

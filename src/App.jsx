@@ -1,7 +1,7 @@
 import Form from './form';
 import { Container, Typography, Box, useMediaQuery } from '@mui/material';
 import residenza_logo from "/home/alex1986/entrada_mudanza_xiris/src/assets/Residenza_logo.jpg";
-import xiris_logo from "./assets/punta_azul_logo.jpeg";
+// import xiris_logo from "./assets/punta_azul_logo.jpeg";
 
 function App() {
   const isMobile = useMediaQuery('(max-width:600px)'); // Detecta si el ancho es menor a 600px
@@ -31,7 +31,7 @@ function App() {
         />
 
         {/* Logo Xiris - Esquina superior derecha */}
-        <img 
+        {/* <img 
           src={xiris_logo} 
           alt="Xiris Logo" 
           style={{
@@ -41,7 +41,7 @@ function App() {
             top: '30px',
             right: '10px',
           }} 
-        />
+        /> */}
       </Box>
 
       {/* Título - Centrado */}
